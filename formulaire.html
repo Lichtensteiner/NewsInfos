@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+<meta charset="UTF-8">
+	<title>Need a website!</title>
+	<link rel="stylesheet"href="css/sheatstyle2.css"/>
+	<link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+</head>
+<body>
+	<div id="global">
+
+		<div id = "entete" >
+			<a class="entetelien" href="index.html">
+			<img src="images/Capture d’écran (363).png" alt="Need a website" width="800" height="250" class="photoentete"/></a>
+		</div>
+	
+		<ul id="nav"><!--
+		--><li><a href="index.html">Accueil</a></li><!--
+		--><li><a href="offres.html">Services</a></li><!--
+		--><li><a href="apropos.html">À propos</a></li><!--
+		--><li><a href="contact.html">Contact</a></li><!--
+		--><li><a href="formulaire.html">Formulaire</a></li>
+		</ul>
+
+
+
+
+		<div id="contenu">
+			<form methode="post" action="traitement.php">
+		
+			<fieldset id="section-1">
+				<div id="conteneur">
+					<label for ="pseudo" class="inline">Nom</label>
+					<input type="text" name="pseudo" id="pseudo">
+				
+					<label for ="pseudo" class="inline">Prénom</label>
+					<input type="text" name="pseudo" id="pseudo">
+				</div>
+
+				<div id="conteneur">
+					<label for ="pseudo" class="inline">Ville</label>
+					<input type="text" name="pseudo" id="pseudo">
+				
+					<label for ="pseudo" class="inline">Département</label>
+					<input type="text" name="pseudo" id="pseudo">
+				</div>
+
+				<div id="conteneur">
+					<label for ="pseudo" class="inline">Email</label>
+					<input type="text" name="pseudo" id="pseudo">
+				
+					<label for ="pseudo" class="inline">Téléphone</label>
+					<input type="text" name="pseudo" id="pseudo">
+				</div>
+
+			</fieldset>
+				
+			<fieldset id="section-2">
+				<label for ="message"></label>
+				<textarea name="message" id="message"cols="87" rows="10" style="line-height: 105%"placeholder="Votre demande" maxlength="100"></textarea>
+				<br>
+				<br>
+				<h1>Offres</h1>
+				<br>
+				<input type="radio" name="choix" value="simple" id="simple">
+				<label for="choix"> Bronze </label>
+				<input type="radio" name="choix" value="correct" id="correct">
+				<label for="choix"> Silver </label>
+				<input type="radio" name="choix" value="compliquee" id="compliquee">
+				<label for="choix"> Gold </label><br><br>
+				
+				<h2>Comment avez-vous connu ce site<h2>
+				<select name="connaitre">
+					<option value="presse">Presse</option>
+					<option value="internet">Internet</option>
+					<option value="amis">Amis ou autre</option>
+				</select><br><br>
+			</fieldset>	
+				
+				
+				<input type="submit" value="Envoyer">
+				<input type="submit" value="Effacer">
+		</form>
+		</div>
+
+
+		
+<div id="pied">
+		
+	<section class="group2">
+				<p>Création de Ludovic Lichtensteiner Dev Web <br />
+					IFIM de Libreville Licence INFO 3 année <br />
+					Promo 2018/2020
+				</p>
+		</section>
+</div><!--#pied-->
+	</div>	
+</body>
+</html>
